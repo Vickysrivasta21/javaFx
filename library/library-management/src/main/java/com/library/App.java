@@ -253,7 +253,7 @@ public class App extends Application {
 
         scene = new Scene(root, 950, 600);
         stage.setScene(scene);
-        stage.setTitle("GAUTAM BUDDHA LIBRARY PORTAL");
+        stage.setTitle("GAUTAM BUDDHA CENTRAL LIBRARY PORTAL");
         stage.show();
     }
 

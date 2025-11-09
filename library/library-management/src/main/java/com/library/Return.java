@@ -124,7 +124,7 @@ public class Return extends Application {
             label.setAlignment(Pos.CENTER);
             Label l2 = new Label();
             if (f > 0) {
-                l2.setText("YOUR FINE IS : " + f);
+                l2.setText("YOUR FINE IS : " + "₹"+f);
                 l2.setFont(Font.font("vergana", FontPosture.ITALIC, 20));
                 l2.setTextFill(Color.GREEN);
                 l2.setAlignment(Pos.CENTER);
