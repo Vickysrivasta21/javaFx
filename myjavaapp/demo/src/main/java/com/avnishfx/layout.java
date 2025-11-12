@@ -3,6 +3,7 @@ package com.avnishfx;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.PasswordField;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
@@ -21,12 +22,14 @@ public class layout extends Application {
 
 
         BorderPane root = new BorderPane();
-        root.setTop(top);
+        
         root.setLeft(left);
         root.setBottom(bottom);
         root.setRight(right);
         root.setCenter(center);
 
+        PasswordField pg = new PasswordField();  
+        root.setTop(pg);
         Scene sc = new Scene(root,600,600);
         stage.setScene(sc);
         stage.show();
